@@ -1,3 +1,3 @@
-export default function filter(val, param) {
+module.exports = function filter(val, param) {
   return `${val + param}`;
 }

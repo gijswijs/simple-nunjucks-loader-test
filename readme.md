@@ -2,9 +2,9 @@
 
 If I follow the documentation for simple-nunjucks-loader and use the Filters option to load a filter:
 
-### webpack.config.js
+## webpack.config.js
 
-```
+```javascript
 module.exports = {
     module: {
         rules: [
@@ -24,17 +24,17 @@ module.exports = {
 };
 ```
 
-### filter.js
+## filter.js
 
-```
+```javascript
 export default function filter(val, param) {
     return `${val + param}`;
 }
 ```
 
-### error
+## error
 
-```
+```javascript
  [...]\filter.js:1
     (function (exports, require, module, __filename, __dirname) { export default function filter(val, param) {
                                                                   ^^^^^^
